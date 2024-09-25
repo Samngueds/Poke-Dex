@@ -113,3 +113,22 @@ main {
   box-shadow: inset -4px 4px 0 #222;
   font-size: 0.9rem;
 }
+
+.pokemon__type {
+  position: absolute;
+  bottom: 9.8%;
+  left: 59%;
+  display: flex; /* Flexbox para alinhar os itens */
+  gap: 4px; /* Espaço entre as caixas de tipo */
+  
+}
+
+.type-box {
+  padding: 23px 89px; /* Espaçamento interno */
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: clamp(8px, 5vw, 1rem);
+  font-weight: 600;
+  color: white;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.5);
+}
